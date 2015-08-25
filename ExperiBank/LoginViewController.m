@@ -78,7 +78,7 @@
 
 - (BOOL)validSignIn
 {
-    return [usernameTextField.text isEqualToString:@"ptw"] && [passwordTextField.text isEqualToString:@"ptw@123"];
+    return [usernameTextField.text isEqualToString:@"company"] && [passwordTextField.text isEqualToString:@"ptw@123"];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)source
