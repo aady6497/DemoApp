@@ -117,11 +117,12 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
+{/*
 	for(UITouch *touch in touches) {
         [usernameTextField resignFirstResponder];
         [passwordTextField resignFirstResponder];
 	}
+  */
 }
 
 @end
