@@ -31,8 +31,7 @@
 {
     [super viewDidLoad];
     
-    [usernameTextField becomeFirstResponder]
-//Aditya
+    [usernameTextField becomeFirstResponder];
     
     [self.view setAccessibilityLabel:@"loginView"];
     [usernameTextField setAccessibilityLabel:@"usernameTextField"];
@@ -118,12 +117,12 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{/*
+{
 	for(UITouch *touch in touches) {
         [usernameTextField resignFirstResponder];
         [passwordTextField resignFirstResponder];
 	}
-  */
+  
 }
 
 @end
