@@ -31,7 +31,8 @@
 {
     [super viewDidLoad];
     
-    [usernameTextField becomeFirstResponder];
+    [usernameTextField becomeFirstResponder]
+//Aditya
     
     [self.view setAccessibilityLabel:@"loginView"];
     [usernameTextField setAccessibilityLabel:@"usernameTextField"];
