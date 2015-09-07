@@ -97,7 +97,8 @@
     [amountSlider resignFirstResponder];
     [countryTextField resignFirstResponder];
     
-    [[[UIAlertView alloc] initWithTitle:@"ExperiBank" message:@"Are you sure you want to send payment?" delegate:self cancelButtonTitle:@"Yes" otherButtonTitles:@"No", nil] show];
+    [[[UIAlertView alloc] initWithTitle:
+      @"ExperiBank" message:@"Are you sure you want to send payment?" delegate:self cancelButtonTitle:@"Yes" otherButtonTitles:@"No", nil] show];
 }
 
 - (IBAction)cancelPressed:(id)sender

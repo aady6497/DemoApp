@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>241469D4-30D8-4E52-A494-D690CB9400FE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ExperiBank</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DCFF55B7AB8CF943998FBC6DEA5B85A6497941AF</key>
 		<string>https://github.com/aady6497/DemoApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ExperiBank.xcodeproj/project.xcworkspace</string>
+	<string>ExperiBank.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DCFF55B7AB8CF943998FBC6DEA5B85A6497941AF</key>
