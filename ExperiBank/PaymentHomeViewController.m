@@ -47,7 +47,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+    [super viewWillAppear:animated]
+    
     NSString *html = [NSString stringWithFormat:@"<html><body><h1 align='center'>Your balance is: <br/> %02.02f$ </h1></body></html>",
                       [[NSUserDefaults standardUserDefaults] floatForKey:@"Balance"]];
     [balanceWebView loadHTMLString:html baseURL:nil];
