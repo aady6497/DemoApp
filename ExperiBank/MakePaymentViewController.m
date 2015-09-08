@@ -126,14 +126,14 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-/*
+
 	for(UITouch *touch in touches) {
         [phoneTextField resignFirstResponder];
         [nameTextField resignFirstResponder];
         [amountSlider resignFirstResponder];
         [countryTextField resignFirstResponder];
 	}
-*/
+
 
 }
 
