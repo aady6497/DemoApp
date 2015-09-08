@@ -119,7 +119,8 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-        [sendPaymentButton setEnabled:[self readyToSignIn]];
+    [super viewDidAppear:animated];
+    [sendPaymentButton setEnabled:[self readyToSignIn]];
 }
 
 
