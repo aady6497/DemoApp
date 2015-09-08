@@ -13,7 +13,6 @@
     IBOutlet UITextField *usernameTextField;
     IBOutlet UITextField *passwordTextField;
     IBOutlet UIButton *loginButton;
-    int tempValue;
 }
 
 @end
