@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+
     [self.view setAccessibilityLabel:@"paymentHomeView"];
     [makePaymentButton setAccessibilityLabel:@"makePaymentButton"];
     [balanceWebView setAccessibilityLabel:@"balanceWebView"];
@@ -47,6 +47,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+
     NSString *html = [NSString stringWithFormat:@"<html><body><h1 align='center'>Your balance is: <br/> %02.02f$ </h1></body></html>",
                       [[NSUserDefaults standardUserDefaults] floatForKey:@"Balance"]];
     [balanceWebView loadHTMLString:html baseURL:nil];
