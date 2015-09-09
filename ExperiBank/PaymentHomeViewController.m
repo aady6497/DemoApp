@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad
 {
-
+    [super viewDidLoad];
     [self.view setAccessibilityLabel:@"paymentHomeView"];
     [makePaymentButton setAccessibilityLabel:@"makePaymentButton"];
     [balanceWebView setAccessibilityLabel:@"balanceWebView"];
